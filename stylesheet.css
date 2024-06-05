@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-right: 10px;
+    font-family: Staatliches;
+    font-size: 2.5vw;
+    position: relative;
+    overflow: hidden;
+    border: 0.5vw solid rgb(15, 101, 230);
+    border-radius: 100px;
+   }
+   li {
+    float: right;
+    color: rgb(15, 101, 230);
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    }
+   li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(15, 101, 230);
+   }
+   li a:hover {
+    color: pink;
+   }
+   .active {
+    color: pink;
+   }
+   .vl {
+    border-left: 0.5vw solid pink;
+    height: 3vw;
+   }
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0;
+    margin: 0;
+   }
+   .column {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+   }
+   .share{
+    font-family: Staatliches;
+    color: rgb(15, 101, 230);
+    padding-left: 2vw;
+    padding-top: 9.5vw;
+    padding-right: 2vw;
+    padding-bottom: 3vw;
+    margin: 0;
+    font-size: 8vw;
+    text-align: left;
+    line-height: 8vw;
+   }
+.instruction{
+    font-family: "Lexend Deca";
+    padding-right: 10vw;
+    padding-left: 2.5vw;
+    margin: 0;
+    font-size: 1.5vw;
+    color:rgb(15, 101, 230)
+   }
+   .mb-3{
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 2vw;
+    font-family: "Lexend Deca";
+    font-size: 1.5vw;
+    position: relative;
+    overflow: hidden;
+   }
+.form-text {
+    font-size: 1vw;
+}
+.button{
+    padding-left: 35px;
+}
+
+
+      
