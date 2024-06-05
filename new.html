@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Something New</title>
+    </head>
+    <body>
+        <div class="circle"></div>
+        <ul>
+            <li><a href="./Public gallery.html">Public gallery</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="./blue.html">Blue</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="./borrowed.html">Borrowed</a></li>
+            <li><div class="vl"></div></li>
+            <li><a class="active" href="./new.html">New</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="./old.html">Old</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="./About.html">Home</a></li>
+        </ul>
+
+        <div class="row">
+            <div class="column">
+                <p class="old"></p>
+            </div>
+            <div class="column">
+                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(1)">
+              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+              <div class="container"><p>Sheep on a rock</p></div>
+            </div>
+            </div>
+
+            <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(2)">
+              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
+              <div class="container"><p>River mouth</p></div>
+            </div>
+            </div>
+
+            <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(3)">
+              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
+              <div class="container"><p>Dog on a snowy hill</p></div>
+            </div>
+            </div>
+
+            <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(4)">
+              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
+              <div class="container"><p>Snow in the mountains</p></div>
+            </div>
+            </div>
+
+            <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(5)">
+                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
+                <div class="container"><p>Pylon in the hills</p></div>
+            </div>
+              </div>
+
+              <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(6)">
+                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
+                <div class="container"><p>Road in the highlands</p></div>
+            </div>
+              </div>
+
+              <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(7)">
+                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
+                <div class="container"><p>Mountain cabin</p></div>
+            </div>
+              </div>
+
+              <div class="column4">
+                <div class="thumbnail" onclick="openModal();currentSlide(8)">
+                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
+                <div class="container"><p>Rocks and hills</p></div>
+            </div>
+              </div>
+
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <img src="./images/placeholder1.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+          
+              <div class="mySlides">
+                <img src="./images/placeholder2.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+          
+              <div class="mySlides">
+                <img src="./images/placeholder3.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+              
+              <div class="mySlides">
+                <img src="./images/placeholder4.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+              
+              <div class="mySlides">
+                <img src="./images/placeholder5.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+
+              <div class="mySlides">
+                <img src="./images/placeholder6.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+
+              <div class="mySlides">
+                <img src="./images/placeholder7.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+
+              <div class="mySlides">
+                <img src="./images/placeholder8.jpg" style="width:100%">
+                <div class="caption-container">
+                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                  </div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+  <script src="./javascript.js">
+</script>
+    </body>
+</html>
