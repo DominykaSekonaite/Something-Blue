@@ -1,159 +1,207 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Something New</title>
-    </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
 
-        <div class="row">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Something New</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+<body>
+ <div class="circle"></div>
+ <ul>
+   <li><a href="./Public gallery.html">Public gallery</a></li>
+   <li>
+     <div class="vl"></div>
+   </li>
+   <li><a href="./blue.html">Blue</a></li>
+   <li>
+     <div class="vl"></div>
+   </li>
+   <li><a href="./borrowed.html">Borrowed</a></li>
+   <li>
+     <div class="vl"></div>
+   </li>
+   <li><a class="active" href="./new.html">New</a></li>
+   <li>
+     <div class="vl"></div>
+   </li>
+   <li><a href="./old.html">Old</a></li>
+   <li>
+     <div class="vl"></div>
+   </li>
+   <li><a href="./About.html">Home</a></li>
+ </ul>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+ <div class="row">
+   <div class="column">
+     <p class="old"></p>
+   </div>
+   <div class="column">
+     <p class="introduction">We are just super excited about buying new things because there is always some unexplicable feeling that draws us to these objects. Whether it's a beautiful plant or a cute little jewellery we know we are going to create an individual story as we get attached to our own unique posessions. <br>Click on cards to reveal the stories behind
+       objects!</p>
+   </div>
+ </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+ <div class="row">
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(1)">
+       <img src="/images/Victoria-new.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+       <div class="container">
+         <p>Red rose</p>
+       </div>
+     </div>
+   </div>
 
-          </div>
-          
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-          
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(2)">
+       <img src="/images/Niki-new.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
+       <div class="container">
+         <p>Christmas tarantula</p>
+       </div>
+     </div>
+   </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(3)">
+       <img src="/images/lydia-new.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
+       <div class="container">
+         <p>Rose plant</p>
+       </div>
+     </div>
+   </div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-  <script src="./javascript.js">
-</script>
-    </body>
+
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(4)">
+       <img src="/images/lucy-b-something-new.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
+       <div class="container">
+         <p>Handmade bracelets</p>
+       </div>
+     </div>
+   </div>
+
+<div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(5)">
+       <img src="/images/dominyka_new.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
+       <div class="container">
+         <p>To the Underworld</p>
+       </div>
+     </div>
+   </div>
+
+
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(6)">
+       <img src="/images/Christabel-new.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
+       <div class="container">
+         <p>The Black Girl Art</p>
+       </div>
+     </div>
+   </div>
+
+
+   
+   <div class="column4">
+     <div class="thumbnail" onclick="openModal();currentSlide(7)">
+       <img src="/images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
+       <div class="container">
+         <p>Mountain cabin</p>
+       </div>
+     </div>
+   </div>
+
+
+ 
+
+
+ </div>
+
+
+ <div id="myModal" class="modal">
+   <span class="close cursor" onclick="closeModal()">&times;</span>
+   <div class="modal-content">
+
+
+     <div class="mySlides">
+       <img src="/images/Victoria-new.jpg" style="width:100%">
+       <div class="caption-container">
+         <p>— Victoria</p>
+       </div>
+     </div>
+
+
+     <div class="mySlides">
+       <img src="/images/Niki-new.jpg" style="width:100%">
+       <div class="caption-container">
+         <p>Can we classify something I bought this Christmas as new? Not really sure... I was however simply captivated by the beauty of this shockingly unusual Christmas ornament. I bet none of you have a Christmas tarantula laying around in your house. — Niki</p>
+       </div>
+     </div>
+
+
+     <div class="mySlides">
+       <img src="/images/lydia-new.jpg" style="width:100%">
+       <div class="caption-container">
+         <p>— Lydia</p>
+       </div>
+     </div>
+
+
+     <div class="mySlides">
+       <img src="/images/lucy-b-something-new.jpg" style="width:100%">
+       <div class="caption-container">
+         <p>Two handmade bracelets from two of my students.<br>— Lucy</p>
+       </div>
+     </div>
+
+     <div class="mySlides">
+      <img src="/images/dominyka_new.jpg" style="width:100%">
+      <div class="caption-container">
+        <p>This is the newest addition to my ticket collection (thank God they sent a physical one). If I had to list the best gigs I ever went to, and which had a big influence on me, Underworld would definitely compete for the top positions. I had known the band for years (thanks to Trainspotting), and I always loved them. They were my gateway to dance music. But at this gig, I discovered them from a different perspective. I was feeling a bit down before it, and afterwards, I left with my inner battery overflowing and feeling so inspired to do things. It brought back my joy for creativity, and I lost myself again in artsy experiments. I could relate a lot to the band's creative process too, even though they do music and I do visual arts. So, for me, this ticket represents<br>a new chapter in my creative endeavours, a refreshed start. A new-ish me. — Dominyka</p>
+      </div>
+    </div>
+
+     <div class="mySlides">
+       <img src="/images/Christabel-new.jpg" style="width:100%">
+       <div class="caption-container">
+         <p id="caption">The black girl art, that describes everything about me, it shows my style, looking at the art is like meeting me already , cause it symbolises me.</p>
+       </div>
+     </div>
+
+
+
+     <div class="mySlides">
+       <img src="/images/placeholder7.jpg" style="width:100%">
+       <div class="caption-container">
+         <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et
+           rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at
+           lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie
+           molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+       </div>
+     </div>
+
+
+    
+
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+ </div>
+
+
+ <script src="./javascript.js">
+ </script>
+</body>
+
+
 </html>

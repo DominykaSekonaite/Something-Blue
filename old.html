@@ -1,159 +1,165 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Something Old</title>
-    </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styles.css">
+       <title>Something Old</title>
+       <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+   </head>
+   <body>
+       <div class="circle"></div>
+       <ul>
+           <li><a href="./Public gallery.html">Public gallery</a></li>
+           <li><div class="vl"></div></li>
+           <li><a href="./blue.html">Blue</a></li>
+           <li><div class="vl"></div></li>
+           <li><a href="./borrowed.html">Borrowed</a></li>
+           <li><div class="vl"></div></li>
+           <li><a href="./new.html">New</a></li>
+           <li><div class="vl"></div></li>
+           <li><a class="active" href="./old.html">Old</a></li>
+           <li><div class="vl"></div></li>
+           <li><a href="./About.html">Home</a></li>
+       </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
 
-        <div class="row">
+       <div class="row">
+           <div class="column">
+               <p class="old"></p>
+           </div>
+           <div class="column">
+               <p class="introduction"> These items may have been in our posessions for a long time but they never loose their meaningfulness and their emotional value. Let's explore with us what 'old' items we find the most precious. <br> Click on cards to reveal the stories behind objects!</p>
+           </div>
+       </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+       <div class="row">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+           <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(1)">
+             <img src="/images/lydia-old.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+             <div class="container"><p> 'The Professor'</p></div>
+           </div>
+           </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+           <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(2)">
+             <img src="/images/lucy-b-something-old.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
+             <div class="container"><p>Black Cat</p></div>
+           </div>
+           </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
 
-          </div>
-          
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-          
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+           <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(3)">
+             <img src="/images/dominyka_old.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
+             <div class="container"><p>Melody Maker '98</p></div>
+           </div>
+           </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+           <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(4)">
+               <img src="/images/Victoria-old.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
+               <div class="container"><p>Cologne Cathedral</p></div>
+           </div>
+             </div>
+
+
+             <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(5)">
+               <img src="/images/Niki-old.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
+               <div class="container"><p>Bronze Peacock</p></div>
+           </div>
+             </div>
+
+
+             <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(6)">
+               <img src="/images/Christabel-old.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
+               <div class="container"><p>The Red Rose</p></div>
+           </div>
+             </div>
+
+
+             <div class="column4">
+               <div class="thumbnail" onclick="openModal();currentSlide(7)">
+               <img src="/images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
+               <div class="container"><p>Rocks and hills</p></div>
+           </div>
+             </div>
+
+
+         </div>
+        
+         <div id="myModal" class="modal" style="background-image: url('/images/gallery_background_2.jpeg');">
+           <span class="close cursor" onclick="closeModal()">&times;</span>
+           <div class="modal-content">
+        
+             <div class="mySlides">
+               <img src="/images/lydia-old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p>1948 copy of "The Professor" — Lydia</p>
+                 </div>
+             </div>
+        
+             <div class="mySlides">
+               <img src="/images/lucy-b-something-old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p>A small ornament passed down from my Gran, containing a black cat holding a max factor perfume from the 1950s. — Lucy</p>
+                 </div>
+             </div>
+        
+
             
-  <script src="./javascript.js">
+             <div class="mySlides">
+               <img src="/images/dominyka_old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p>I got this newspaper as a birthday present from my friend. It dates back to 1998, the same year I was born! Even the same month, January, only 16 days earlier than I first saw this world. I love collecting music memorabilia, so whenever I hold this Melody Maker in my hands, it makes me happy! It is a special New Year's issue that also has a "Readers' Poll" where people voted for their favourite artists — who had the "haircut of the year"? (Keith Flint!) Who was "the sexiest man"? (Nicky Wire...) "Woman of the year"? (not surprisingly, Björk!) What was "the most irritating record"? ("I'm a Barbie girl, in the Barbie world...") "Best live act"? (Radiohead!) — just to name a few. It's a very fun read with a lot of familiar faces. And, well, Thom Yorke on the cover is<br>a personally special bonus (he was also voted "man of the year")! — Dominyka</p>
+                 </div>
+             </div>
+            
+             <div class="mySlides">
+               <img src="/images/Victoria-old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p>Artwork of Cologne Cathedral — Victoria</p>
+                 </div>
+             </div>
+
+
+             <div class="mySlides">
+               <img src="/images/Niki-old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p>This lovely peacock was gifted to me for Christmas from my best friend and partner. I received this gift a few years ago and It was a great surprise because I am usually very picky with gifts. Peacocks bring good fortune and wealth to the owner and represent rebirth and beauty in many cultures. — Niki</p>
+                 </div>
+             </div>
+
+
+             <div class="mySlides">
+               <img src="/images/Christabel-old.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p> It's been 2years and that rose is hail and hearty, it symbolises the love I and my partner have for each other . It’s going to die one day but our love will keep blossoming... - Christabel</p>
+                 </div>
+             </div>
+
+
+             <div class="mySlides">
+               <img src="/images/placeholder2.jpg" style="width:100%">
+               <div class="caption-container">
+                   <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
+                 </div>
+             </div>
+
+
+             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+ <script src="./javascript.js">
 </script>
-    </body>
+   </body>
 </html>
