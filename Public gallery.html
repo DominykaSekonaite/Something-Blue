@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <link rel="stylesheet" href="styles.css">
         <title>Share Your Something Blue</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a class="active" href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="something_blue">Share your Something Blue!</p>
-            </div>
-            <div class="column">
-                <p class="instruction">To share your pictures with us, provide your email address and attach your images. Please include a brief description of the image/images. These will be reviewed for approval before being uploaded to the site.</p>
-            </div>
-        </div>
+<body class="background_img" style="background-image: url(./images/public_gallery_background.jpeg);">
 
-        <div class="row">
-            <div class="column" style="background-color: pink;">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Provide a brief description of your image"></textarea>
-          </div>
-              <div class="mb-3">
-                <label for="formFileMultiple" class="form-label">Select your photos here!</label>
-                <input class="form-control" type="file" id="formFileMultiple" multiple>
-              </div>
-             <div class="button"><button type="submit" class="button">Submit</button></div>
-            </form>
+    <div class="circle"></div>
+
+    <ul>
+        <li><a class="active" href="./Public gallery.html">Public gallery</a></li>
+        <li><div class="vl"></div></li>
+        <li><a href="./blue.html">Blue</a></li>
+        <li><div class="vl"></div></li>
+        <li><a href="./borrowed.html">Borrowed</a></li>
+        <li><div class="vl"></div></li>
+        <li><a href="./new.html">New</a></li>
+        <li><div class="vl"></div></li>
+        <li><a href="./old.html">Old</a></li>
+        <li><div class="vl"></div></li>
+        <li><a href="./About.html">Home</a></li>
+    </ul>
+
+    <div class="row">
+        <div class="column">
+            <p class="something_blue">Share your Something Blue!</p>
         </div>
+        <div class="column">
+            <p class="introduction">To share your pictures with us, provide your email address and attach your images. Please include a brief description of the image/images. These will be reviewed for approval before being uploaded to the site.</p>
         </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Provide a brief description of your image"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="file-upload">Select your photos here!</label>
+                <input class="hide-choose-files" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="button"><button type="submit" class="button">Submit</button>
+            </div>
+        </div>
+    </div>
 
     </body>
 </html>
