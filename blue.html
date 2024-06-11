@@ -1,159 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Something Blue</title>
-    </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Something Blue</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  </head>
 
-        <div class="row">
+<body class="background_img" style="background-image: url(./images/public_gallery_background.jpeg);">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
+  <div class="circle"></div>
+  <ul>
+    <li><a href="./Public gallery.html">Public gallery</a></li>
+    <li><div class="vl"></div></li>
+    <li><a class="active" href="./blue.html">Blue</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./borrowed.html">Borrowed</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./new.html">New</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./old.html">Old</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./About.html">Home</a></li>
+  </ul>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+  <div class="row">
+    <div class="column">
+    <p class="old"></p>
+    </div>
+    <div class="column">
+    <p class="introduction">Traditionally we might get something blue to wear on our wedding day but we love that this colour symbolises loyalty, wisdom and calmness. Click on cards to reveal the stories<br>behind objects!</p>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
+  <div class="row">
+    <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(1)">
+    <img src="./images/indianornament.svg" style="width:100%" onclick="openModal();currentSlide(1)" alt="Indian statuette">
+    <div class="container"><p>Gift from India</p></div>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(2)">
+    <img src="./images/tnw.svg" style="width:100%" onclick="openModal();currentSlide(2)" alt=" 'Infancy' LP by The Ninth Wave">
+    <div class="container"><p>TNW: Infancy</p></div>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(3)">
+    <img src="./images/bowl.svg" style="width:100%" onclick="openModal();currentSlide(3)" alt="ornamented bowl">
+    <div class="container"><p>Little trinket</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(4)">
+    <img src="./images/blueart.svg" style="width:100%" onclick="openModal();currentSlide(4)" alt="artwork depicting blue sea and sky">
+    <div class="container"><p>Blue art</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(5)">
+    <img src="./images/bluewall.svg" style="width:100%" onclick="openModal();currentSlide(5)" alt="blue wall">
+    <div class="container"><p>Blue bathroom</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(6)">
+    <img src="./images/lucy-l-blue.png" style="width:100%" onclick="openModal();currentSlide(6)" alt="blue balloons">
+    <div class="container"><p>Balloons</p></div>
+    </div>
+  </div>
 
-          </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(7)">
+    <img src="./images/bluebracelet.svg" style="width:100%" onclick="openModal();currentSlide(7)" alt="blue bracelet">
+    <div class="container"><p>Bracelet</p></div>
+    </div>
+  </div>
+
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(8)">
+    <img src="./images/blank-blue.png" style="width:100%" onclick="openModal();currentSlide(8)" alt="polaroid image with text saying 'share something blue of yours' ">
+    <div class="container"><p>. . .</p></div>
+    </div>
+  </div>
+
+</div>
           
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
+<div id="myModal" class="modal" style="background-image: url('./images/gallery_background_4.jpeg');">
+
+<span class="close cursor" onclick="closeModal()">&times;</span>
+
+<div class="modal-content">  
+
+  <div class="mySlides">
+    <img src="./images/indianornament.svg" alt="Indian statuette">
+    <div class="caption-container">
+    <p>— Lydia</p>
+    </div>
+  </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/tnw.svg" alt=" 'Infancy' LP by The Ninth Wave">
+    <div class="caption-container">
+    <p>The Ninth Wave was a Glasgow-based post-punk band that I have been following pretty much since their early gigs. There is something special about the sound of The Ninth Wave — it is complex, emotional, deep, and powerful. I saw them live many times and was always treated to an exceptional performance. "Infancy" was their debut album, released in two separate parts as a protest against fast music consumption. It would be hard to pick the best track — each song is such a unique story! (Well, maybe "Sometimes the Silence is Sweeter" was my first love.) It was really sad to hear when, a couple years back, the band announced they were going their separate ways to work on solo projects. Even though each member had so much to give and they are all super talented, we, the fans, missed seeing them all on stage together.<br><br>Actually, we got another chance to dance to their tunes again this spring when The Ninth Wave reunited for a one-off show in Glasgow! The gig felt very special, and I bought this particular LP that night from their merch stand. I would say this music encompasses my experience of living in Glasgow; it is like a soundtrack for this stage of my life. Another fun fact — there is a song called "Abattoir" from their other album, "Happy Days!" — and I briefly appear in its video clip. The band reached out to fans some time ago to send visual content they could use, and they included my contribution. Go check them out; you will see why I am so excited. — Dominyka</p>
+    </div>
+  </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/bowl.svg" alt="ornamented bowl">
+    <div class="caption-container">
+    <p>This little trinket is what happens when you think you didn't buy enough souvenirs while standing in the airport souvenir shop waiting for your flight. Bought this beautifully crafted tiny sized bowl after a well deserved week beach vacay in Sardinia. The beaches were amazing and I can always justify this purchase by choosing to eat pistachios in this otherwise ridiculously small bowl. It's important to find purposes for things my friends. — Niki</p>
+    </div>
+  </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/blueart.svg" alt="artwork depicting blue sea and sky">
+    <div class="caption-container">
+    <p>The blue art — among the first thing I stole from my partner when we first started dating, it made me calm, even in the winter and summer, I look it and I just imagine how peaceful my world is (even if it isn't); it is so blue and that's so peaceful and calm.<br>— Christabel</p>
+    </div>
+  </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/bluewall.svg" alt="blue wall">
+    <div class="caption-container">
+    <p>The current state of my very blue bathroom! We bought a house needing a lot of renovations, and unfortunately as the bathroom was in the best condition, it will be the last room to have any decorations! — Lucy</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/lucy-l-blue.png" alt="blue balloons">
+    <div class="caption-container">
+    <p>The balloons represent something blue. This was a celebration of the first year of life for my baby. A very special moment during some very uncertain times. — Lucy</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/bluebracelet.svg" alt="blue bracelet">
+    <div class="caption-container">
+    <p id="caption">This bracelet, with a simple yet beautiful design, is a souvenir from Tanzania. My family and I travelled to Tanzania a few years ago and enjoyed a wonderful time surrounded by stunning nature and kind people. We went to a market where people showcased their lovely hand made jewellery and I immediately fell in love with this blue bracelet. I love wearing it, not only because of its design, but because it reminds of the amazing time I got to spend in Tanzania. — Victoria</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/blank-blue.png" alt="polaroid image with text saying 'share something blue of yours' ">
+    <div class="caption-container">
+    <p>If you would like to share "something blue" of<br>yours, please go <a href="./Public gallery.html"><b>here</b></a> to submit your picture! Don't forget to add your name and a brief description of the object. Once we review, it will be uploaded to<br>this gallery!</p>
+    </div>
+  </div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+</div>
             
-  <script src="./javascript.js">
+<script src="./javascript.js">
 </script>
-    </body>
+
+</body>
 </html>
