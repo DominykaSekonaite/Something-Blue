@@ -2,6 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html {
+  cursor: url("./images/cursor.png"), auto;
+}
+
+body {
+  cursor: url("./images/cursor.png"), auto;
+}
+
+body a {
+  cursor: url("./images/cursor_active.png"), auto;
+  scrollbar-color: rgb(15, 101, 230);
+}
 
 body {
     background-color: white;
@@ -14,35 +28,36 @@ body {
 .explore a {
     font-family: "Staatliches";
     text-decoration: none;
-    font-size: 2.5vw;
-    color: black;
-}
-
-.explore {
-  background-color: rgb(255, 255, 255);
-  border: none;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
+    font-size: 30px;
+    color: rgb(15, 101, 230);
+    border: 5px solid rgb(15, 101, 230);
+    padding: 0.5vw;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: white;
+    width: 20%;
+    line-height: 110%;
 }
 
 .explore a:hover {
-    color: rgb(15, 101, 230);
+    color: white;
+    background-color: rgb(15, 101, 230);
 }
 
 .image_centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 35%;
     padding: 0;
-    border: 5px solid white;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    border-top: 1vw solid white;
+    border-left: 1vw solid white;
+    border-right: 1vw solid white;
+    border-bottom: 4vw solid white;
+    margin-bottom: 3.5vw;
+    margin-top: 7vw;
 }
 
 #backgroundVideo {
@@ -64,18 +79,17 @@ ul {
   overflow: hidden;
   border: 0.5vw solid rgb(15, 101, 230);
   border-radius: 100px;
+  background-color: white;
 }
-
 
 li {
   float: right;
   color: rgb(15, 101, 230);
   text-align: center;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
   padding-left: 0.8vw;
-  padding-right: 0.8vw;
-  
+  padding-right: 0.8vw; 
 }
 
 li a {
@@ -94,17 +108,18 @@ li a:hover {
 
 .vl {
   border-left: 0.5vw solid pink;
-  height: 3vw;
+  height: 2.8vw;
 }
 
 .circle {
-  height: 4.5vw;
-  width: 4.5vw;
+  height: 4vw;
+  width: 4vw;
   background-color: rgb(15, 101, 230);
   border-radius: 50%;
   position: absolute;
   margin-left: 1.9vw;
-  margin-top: 0.77vw;
+  margin-top: 0.75vw;
+  z-index: 1;
 }
 
 .row:after {
@@ -125,25 +140,26 @@ li a:hover {
 .introduction {
   font-family: "Lexend Deca";
   padding-right: 10vw;
-  padding-top: 10vw;
-  padding-left: 2.5vw;
-  padding-bottom: 3vw;
+  padding-top: 4vw;
+  padding-left: 1.1vw;
+  padding-bottom: 1.5vw;
   margin: 0;
-  font-size: 1.5vw;
-  color:rgb(15, 101, 230)
+  font-size: 1.2vw;
+  color:rgb(15, 101, 230);
+  line-height: 140%;
 }
 
 .something_blue {
-  font-family: Staatliches;
+  font-family: "Permanent Marker";
   color: rgb(15, 101, 230);
-  padding-left: 2vw;
-  padding-top: 9.5vw;
+  padding-left: 2.5vw;
+  padding-top: 1.8vw;
   padding-right: 2vw;
-  padding-bottom: 3vw;
+  padding-bottom: 2.5vw;
   margin: 0;
-  font-size: 8vw;
+  font-size: 7.5vw;
   text-align: left;
-  line-height: 8vw;
+  line-height: 100%;
 }
 
 .old {
@@ -164,7 +180,7 @@ li a:hover {
 }
 
 .row > .column4 {
-  padding-top: 2vw;
+  padding-top: 1vw;
 }
 
 .row:after {
@@ -185,7 +201,7 @@ li a:hover {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 8vw;
+  padding-top: 6vw;
   left: 0;
   top: 0;
   width: 100%;
@@ -199,9 +215,17 @@ li a:hover {
 .modal-content {
   position: relative;
   margin: auto;
+  margin-bottom: 5vw;
   padding: 0;
-  width: 45%;
+  width: 40%;
   max-width: 1200px;
+}
+
+.modal-content img {
+  height: 40vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The Close Button */
@@ -218,26 +242,21 @@ li a:hover {
 .close:focus {
   color: pink;
   text-decoration: none;
-  cursor: pointer;
+  cursor: url("./images/cursor_active.png"), auto;
 }
 
 .mySlides {
   display: none;
 }
 
-.cursor {
-  cursor: pointer;
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
+  cursor: url("./images/cursor_active.png"), auto;
   position: absolute;
-  top: 50%;
+  top: 17vw;
   width: auto;
   padding: 1.6vw;
-  margin-top: -10.5vw;
   color: white;
   font-weight: bold;
   font-size: 3vw;
@@ -248,11 +267,11 @@ li a:hover {
 
 /* Position the "next button" to the right */
 .next {
-  right: -5vw;
+  right: 2vw;
 }
 
 .prev {
-  left: -5vw;
+  left: 2vw;
 }
 
 /* On hover, add a different color */
@@ -262,22 +281,24 @@ li a:hover {
 }
 
 img {
-  margin-bottom: -4px;
-}
-
-.thumbnail {
-  border: 0.5vw solid rgb(15, 101, 230);
+  margin-bottom: -1.5vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
 .thumbnail:hover {
-  border: 0.5vw solid pink;
   background-color: pink;
+  cursor: url("./images/cursor_active.png"), auto;
 }
 
 .container {
-  padding: 0;
+  padding: 1vw;
   text-align: center;
-  font-family: Staatliches;
+  font-family: "Permanent Marker";
   font-size: 2vw;
   color: rgb(15, 101, 230);
 }
@@ -288,54 +309,129 @@ p {
 
 .caption-container {
   text-align: center;
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   padding-top: 2vw;
   color: white;
   font-family: "Lexend Deca";
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  line-height: 140%;
 }
 
-@media only screen and (min-width: 1400px) {
-  .modal-content {width:40%;}
-  .prev, .next {margin-top:-10.3vw;}
-  .caption-container {font-size:1.3vw;}
-}
-
-.instruction {
-  font-family: "Lexend Deca";
-  padding-right: 10vw;
-  padding-left: 2.5vw;
-  margin: 0;
-  font-size: 1.5vw;
-  color:rgb(15, 101, 230);
-  padding-top: 9.5vw;
- }
-
- .mb-3{
-  margin: 10px;
+.mb-3{
+  margin: 1vw;
   padding-right: 10px;
   padding-left: 2vw;
   font-family: "Lexend Deca";
   font-size: 1.5vw;
   position: relative;
   overflow: hidden;
+  color: rgb(15, 101, 230);
  }
+
 .form-text {
   font-size: 1.5vw;
 }
+
 .button {
   text-align: left;
   font-family: "Staatliches";
-  margin-left: 1.3vw;
-  font-size: 2vw;
+  margin-left: 1.5vw;
+  margin-top: 0.5vw;
+  font-size: 2.5vw;
   color: rgb(15, 101, 230);
   margin-bottom: 0.5vw;
 }
 
 .button button {
   background: white;
-  border: solid rgb(15, 101, 230);
+  border: 0.4vw solid rgb(15, 101, 230);
+  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor_active.png"), auto;
 }
 
+.button button:hover {
+  background: rgb(15, 101, 230);
+  color: white;
+}
 
+.form-label {
+  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor.png"), auto;
+}
+
+.form-control {
+  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor_active.png"), auto;
+}
+
+#exampleFormControlInput1 {
+  font-family: "Lexend Deca";
+  padding: 0.5vw;
+  font-size: 1.3vw;
+  margin-left: 1vw;
+  width: 16.75vw;
+}
+
+#exampleFormControlTextarea1 {
+  font-family: "Lexend Deca";
+  padding: 0.5vw;
+  font-size: 1.3vw;
+  width: 28.35vw;
+}
+
+div.scroll-container {
+  overflow: scroll;
+  max-width: 100% !important;
+  white-space: nowrap;
+  padding: 0.5vw;
+  margin-top: 1vw;
+ }
+ 
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+ 
+ div.scroll-container img {
+  width: 19vw;
+  padding: 0;
+  display:inline;
+ }
+ 
+.background_img {
+  background-size:cover;
+  background-image: url(./images/home_background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.row {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}
+
+/** Override file input styling **/
+
+.hide-choose-files {
+  display: none;
+}
+.file-upload {
+  border: 0.4vw solid rgb(15, 101, 230);
+  display: inline-block;
+  padding: 4px 8px;
+  cursor: pointer;
+  background: white;
+  cursor: url("./images/cursor_active.png"), auto;
+}
+
+.file-upload:hover {
+  border: 0.4vw solid rgb(15, 101, 230);
+  display: inline-block;
+  padding: 4px 8px;
+  cursor: pointer;
+  background: rgb(15, 101, 230);
+  cursor: url("./images/cursor_active.png"), auto;
+  color: white;
+}
