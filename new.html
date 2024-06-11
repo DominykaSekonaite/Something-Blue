@@ -1,159 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Something New</title>
-    </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Something New</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+</head>
 
-        <div class="row">
+<body class="background_img" style="background-image: url(./images/public_gallery_background.jpeg);">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
+<div class="circle"></div>
+<ul>
+  <li><a href="./Public gallery.html">Public gallery</a></li>
+  <li><div class="vl"></div></li>
+  <li><a href="./blue.html">Blue</a></li>
+  <li><div class="vl"></div></li>
+  <li><a href="./borrowed.html">Borrowed</a></li>
+  <li><div class="vl"></div></li>
+  <li><a class="active" href="./new.html">New</a></li>
+  <li><div class="vl"></div></li>
+  <li><a href="./old.html">Old</a></li>
+  <li><div class="vl"></div></li>
+  <li><a href="./About.html">Home</a></li>
+</ul>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+<div class="row">
+  <div class="column">
+    <p class="old"></p>
+  </div>
+  <div class="column">
+    <p class="introduction">We are just super excited about buying new things because there is always some unexplicable feeling that draws us to these objects. Whether it's a beautiful plant or a cute little jewellery we know we are going to create an individual story as we get attached to our own unique posessions. Click on cards to reveal the stories behind objects!</p>
+  </div>
+</div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
+<div class="row">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(1)">
+    <img src="./images/redrose.svg" style="width:100%" onclick="openModal();currentSlide(1)" alt="red rose">
+    <div class="container"><p>Red rose</p></div>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(2)">
+    <img src="./images/bejeweledspider.svg" style="width:100%" onclick="openModal();currentSlide(2)" alt="bejeweled spider">
+    <div class="container"><p>X-mas tarantula</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(3)">
+    <img src="./images/pinkroses.svg" style="width:100%" onclick="openModal();currentSlide(3)" alt="pink roses">
+    <div class="container"><p>Rose plant</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(4)">
+    <img src="./images/bracelet.svg" style="width:100%" onclick="openModal();currentSlide(4)" alt="handmade bracelets">
+    <div class="container"><p>Bracelets</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(5)">
+    <img src="./images/artwall.svg" style="width:100%" onclick="openModal();currentSlide(5)" alt="artwork depicting a black girl">
+    <div class="container"><p>Black girl art</p></div>
+    </div>
+  </div>
 
-          </div>
-          
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-          
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-          
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
-              
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(6)">
+    <img src="./images/ticket.svg" style="width:100%" onclick="openModal();currentSlide(6)" alt="ticket to Underworld">
+    <div class="container"><p>To the Underworld</p></div>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(7)">
+    <img src="./images/lucy-l-new.png" style="width:100%" onclick="openModal();currentSlide(7)" alt="wooden staircase">
+    <div class="container"><p>Empty house</p></div>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(8)">
+    <img src="./images/blank-new.png" style="width:100%" onclick="openModal();currentSlide(8)" alt="polaroid image with text saying 'share something new of yours' ">
+    <div class="container"><p>. . .</p></div>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+</div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-  <script src="./javascript.js">
+<div id="myModal" class="modal">
+
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+  <div class="mySlides">
+    <img src="./images/redrose.svg" alt="red rose">
+    <div class="caption-container">
+    <p>This red rose, in full blossom, put a smile on my face a couple of days ago! I have always enjoyed the beautiful flowers in my parents garden and love to see what new blossoms I can find every time I visit. This time, I found this perfect red rose, reminding me of "Beauty and the Beast"! — Victoria</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/bejeweledspider.svg" alt="bejeweled spider">
+    <div class="caption-container">
+    <p>Can we classify something I bought this Christmas as new? Not really sure... I was however simply captivated by the beauty of this shockingly unusual Christmas ornament. I bet none of you have<br>a Christmas tarantula laying around in your house.<br>— Niki</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/pinkroses.svg" alt="pink roses">
+    <div class="caption-container">
+    <p>— Lydia</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/bracelet.svg" alt="handmade bracelets">
+    <div class="caption-container">
+    <p>I was given both these bracelets from students during my first year of teaching, one is from a year 3 student and the other one from a year 5. I love it when my students make me little things like these as it makes me feel appreciated! — Lucy</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/artwall.svg" alt="artwork depicting a black girl">
+    <div class="caption-container">
+    <p>The black girl art, that describes everything about me, it shows my style, looking at the art is like meeting me already, cause it symbolises me.<br>— Christabel</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/ticket.svg" alt="ticket to Underworld">
+    <div class="caption-container">
+    <p>This is the newest addition to my ticket collection (thank God they sent a physical one). If I had to list the best gigs I ever went to, and which had a big influence on me, Underworld would definitely compete for the top positions. I had known the band for years (thanks to Trainspotting), and I always loved them. They were my gateway to dance music. But at this gig, I discovered them from a different perspective. I was feeling a bit down before it, and afterwards, I left with my inner battery overflowing and feeling so inspired to do things. It brought back my joy for creativity, and I lost myself again in artsy experiments. I could relate a lot to the band's creative process too, even though they do music and I do visual arts. So, for me, this ticket represents<br>a new chapter in my creative endeavours, a refreshed start. A new-ish me. — Dominyka</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/lucy-l-new.png" alt="wooden staircase">
+    <div class="caption-container">
+    <p>The empty house represents something new. This was a big move for me to a new city. Although there were doubts and fears, these feelings were overshadowed by excitement and anticipation.<br>— Lucy</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="./images/blank-new.png" alt="polaroid image with text saying 'share something new of yours' ">
+    <div class="caption-container">
+    <p id="caption">If you would like to share "something new" of yours, please go <a href="./Public gallery.html"><b>here</b></a> to submit your picture! Don't forget to add your name and a brief description of the object. Once we review, it will be uploaded to this gallery!</p>
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+</div>
+
+<script src="./javascript.js">
 </script>
-    </body>
+
+</body>
 </html>
