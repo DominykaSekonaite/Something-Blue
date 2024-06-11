@@ -1,159 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Something Borrowed</title>
-    </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Something Borrowed</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  </head>
 
-        <div class="row">
+<body class="background_img" style="background-image: url(./images/public_gallery_background.jpeg);">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
+  <div class="circle"></div>
+  <ul>
+    <li><a href="./Public gallery.html">Public gallery</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./blue.html">Blue</a></li>
+    <li><div class="vl"></div></li>
+    <li><a class="active" href="./borrowed.html">Borrowed</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./new.html">New</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./old.html">Old</a></li>
+    <li><div class="vl"></div></li>
+    <li><a href="./About.html">Home</a></li>
+  </ul>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+  <div class="row">
+    <div class="column">
+    <p class="old"></p>
+    </div>
+    <div class="column">
+    <p class="introduction">Whether it's from a library, our parents or best friends, we get to borrow some items from time to time with the original idea of giving it back... But sometimes life comes in the way! Check it out what we have borrowed from others that might never get returned to its original owners. Click on cards to reveal the stories behind objects!</p>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
+  <div class="row">
+    <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(1)">
+    <img src="./images/japenesemagazine.svg" style="width:100%" onclick="openModal();currentSlide(1)" alt="japanese magazine">
+    <div class="container"><p>IDEA No. 346</p></div>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(2)">
+    <img src="./images/piggybank.svg" style="width:100%" onclick="openModal();currentSlide(2)" alt="piggy bank">
+    <div class="container"><p>Piggy bank</p></div>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(3)">
+    <img src="./images/map.svg" style="width:100%" onclick="openModal();currentSlide(3)" alt="a map of Ireland">
+    <div class="container"><p>IRE map</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(4)">
+    <img src="./images/spiderplant.svg" style="width:100%" onclick="openModal();currentSlide(4)" alt="spider plant">
+    <div class="container"><p>Spider plant</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(5)">
+    <img src="./images/autumnleaves.svg" style="width:100%" onclick="openModal();currentSlide(5)" alt="artwork depicting autumn">
+    <div class="container"><p>The autumn leaf</p></div>
+    </div>
+  </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(6)">
+    <img src="./images/caketin.svg" style="width:100%" onclick="openModal();currentSlide(6)" alt="cake tin">
+    <div class="container"><p>Cake tin</p></div>
+    </div>
+  </div>
 
-          </div>
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(7)">
+    <img src="./images/lucy-l-borrowed.png" style="width:100%" onclick="openModal();currentSlide(7)" alt="a steering wheel">
+    <div class="container"><p>A car</p></div>
+    </div>
+  </div>
+
+  <div class="column4">
+    <div class="thumbnail" onclick="openModal();currentSlide(8)">
+    <img src="./images/blank-borrowed.png" style="width:100%" onclick="openModal();currentSlide(8)" alt="polaroid image with text saying 'share something borrowed of yours' ">
+    <div class="container"><p>. . .</p></div>
+    </div>
+  </div>
+
+</div>
           
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
+<div id="myModal" class="modal" style="background-image: url('./images/gallery_background_3.jpeg');">
+
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+
+  <div class="modal-content">
           
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/japenesemagazine.svg" alt="japanese magazine">
+    <div class="caption-container">
+      <p>This is an issue of a Japanese graphic design and typography magazine. I borrowed it from my design tutor back in uni when I was exploring book design.<br>He felt this magazine aligned with my style. This particular issue focused on the work of Harata HeiQuiti, a Japanese graphic designer, which was truly inspiring. I loved his fragmented layouts, vivid colours, and all that structured chaos. The magazine itself felt like a piece of art, stitched together from different types of paper varying in size, texture, and printing methods.<br><br>I took the magazine home from the studio, supposedly just for a few weeks — and then Covid started! I packed the rest of my belongings from the studio and stored everything safely at mine for much longer than anyone could have expected. And maybe... I forgot about that magazine, even after the whole pandemic business was over. I found it some time later while tidying my piles of books. I felt bad about not returning it to my tutor, but honestly, it is such a beautiful publication that I allowed myself to be a "book thief" just this once (sorry, Colin!). — Dominyka</p>
+    </div>
+  </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/piggybank.svg" alt="piggy bank">
+    <div class="caption-container">
+    <p>This piggy bank belongs to my mom. It has accompanied me my entire life, as it sits on the window ledge of my room. Over the years my mom and I saved many coins in here, and later used them to enjoy ice creams and more together! Every time I see this little 'something borrowed' I remember the lovely moments it gave us and am excited what the coins in this piggy bank will allow us to experience in the future. — Victoria</p>
+    </div>
+  </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/map.svg" alt="a map of Ireland">
+    <div class="caption-container">
+    <p>We “borrowed” this map from a lovely Air BnB in Cong, Republic of Ireland (the owner allowed us to have it!). We then went on a road trip exploring different parts of the country, including Galway, Limerick, Tipperary and Doolin. We ended the trip in Westport, where my family are from, and even climbed the famous Croagh Patrick mountain!<br>— Lucy</p>
+    </div>
+  </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/spiderplant.svg" alt="spider plant">
+    <div class="caption-container">
+    <p>My pride and joy or my rental flat is this spider plant that is left behind when the previous person moved out. Between all the other plants only this one managed to survive the harsh winter and the gap period between the 2 rentals so it's a real fierce fighter! It also constantly produces smaller 'spiderette' plants so it's a proud mama of 2 other tiny pots of plants that we — up until now — managed to keep healthy. I consider her as a part of family now. — Niki</p>
+    </div>
+  </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/autumnleaves.svg" alt="artwork depicting autumn">
+    <div class="caption-container">
+    <p>The autumn leaf art — took it from my sister and I haven't given it back till today, it captures the essence of autumn's beauty with its depiction of falling leaves. Each leaf seems to tell a story of the changing seasons, evoking feelings of nostalgia and tranquillity. — Christabel</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/caketin.svg" alt="cake tin">
+    <div class="caption-container">
+    <p>Mum's cake tin — Lydia</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/lucy-l-borrowed.png" alt="a steering wheel">
+    <div class="caption-container">
+    <p>I live for a trip, so I borrowed (rented) this car to go on a long trip with my loved ones. It represents feeling carefree and stress free. — Lucy</p>
+    </div>
+  </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+  <div class="mySlides">
+    <img src="./images/blank-borrowed.png" alt="polaroid image with text saying 'share something borrowed of yours' ">
+    <div class="caption-container">
+    <p>If you would like to share "something borrowed" of yours, please go <a href="./Public gallery.html"><b>here</b></a> to submit your picture!<br>Don't forget to add your name and a brief description of the object. Once we review, it will be uploaded to this gallery!</p>
+    </div>
+  </div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  </div>
             
-  <script src="./javascript.js">
+<script src="./javascript.js">
 </script>
-    </body>
+
+</body>
 </html>
