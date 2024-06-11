@@ -1,159 +1,169 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <title>Something Old</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     </head>
-    <body>
-        <div class="circle"></div>
-        <ul>
-            <li><a href="./Public gallery.html">Public gallery</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./blue.html">Blue</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./borrowed.html">Borrowed</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./new.html">New</a></li>
-            <li><div class="vl"></div></li>
-            <li><a class="active" href="./old.html">Old</a></li>
-            <li><div class="vl"></div></li>
-            <li><a href="./About.html">Home</a></li>
-        </ul>
 
-        <div class="row">
-            <div class="column">
-                <p class="old"></p>
-            </div>
-            <div class="column">
-                <p class="introduction">Here goes some words about something new... Click on cards to reveal the stories behind objects!</p>
-            </div>
-        </div>
+<body class="background_img" style="background-image: url(./images/public_gallery_background.jpeg);">
 
-        <div class="row">
+  <div class="circle"></div>
+    <ul>
+      <li><a href="./Public gallery.html">Public gallery</a></li>
+      <li><div class="vl"></div></li>
+      <li><a href="./blue.html">Blue</a></li>
+      <li><div class="vl"></div></li>
+      <li><a href="./borrowed.html">Borrowed</a></li>
+      <li><div class="vl"></div></li>
+      <li><a href="./new.html">New</a></li>
+      <li><div class="vl"></div></li>
+      <li><a class="active" href="./old.html">Old</a></li>
+      <li><div class="vl"></div></li>
+      <li><a href="./About.html">Home</a></li>
+    </ul>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(1)">
-              <img src="./images/placeholder1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
-              <div class="container"><p>Sheep on a rock</p></div>
-            </div>
-            </div>
+  <div class="row">
+    <div class="column">
+      <p class="old"></p>
+    </div>
+    <div class="column">
+      <p class="introduction">These items may have been in our posessions for a long time but they never loose their meaningfulness and their emotional value. Let's explore with us what "old" items we find the most precious. Click on cards to reveal the stories behind objects!</p>
+    </div>
+  </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(2)">
-              <img src="./images/placeholder2.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
-              <div class="container"><p>River mouth</p></div>
-            </div>
-            </div>
+  <div class="row">
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(3)">
-              <img src="./images/placeholder3.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
-              <div class="container"><p>Dog on a snowy hill</p></div>
-            </div>
-            </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(1)">
+      <img src="./images/old.svg" style="width:100%" onclick="openModal();currentSlide(1)" alt="a copy of 'The Professor' by Charlotte Bronte">
+      <div class="container"><p>The Professor</p></div>
+      </div>
+    </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(4)">
-              <img src="./images/placeholder4.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
-              <div class="container"><p>Snow in the mountains</p></div>
-            </div>
-            </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(2)">
+      <img src="./images/catjar.svg" style="width:100%" onclick="openModal();currentSlide(2)" alt="a souvenir jar with a black cat">
+      <div class="container"><p>Black Cat</p></div>
+      </div>
+    </div>
 
-            <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(5)">
-                <img src="./images/placeholder5.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
-                <div class="container"><p>Pylon in the hills</p></div>
-            </div>
-              </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(3)">
+      <img src="./images/redrosebox.svg" style="width:100%" onclick="openModal();currentSlide(3)" alt="a bucket of red roses">
+      <div class="container"><p>Red rose</p></div>
+      </div>
+    </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(6)">
-                <img src="./images/placeholder6.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
-                <div class="container"><p>Road in the highlands</p></div>
-            </div>
-              </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(4)">
+      <img src="./images/melodymaker.svg" style="width:100%" onclick="openModal();currentSlide(4)" alt="Melody Maker newspaper">
+      <div class="container"><p>Melody Maker '98</p></div>
+      </div>
+    </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(7)">
-                <img src="./images/placeholder7.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
-                <div class="container"><p>Mountain cabin</p></div>
-            </div>
-              </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(5)">
+      <img src="./images/cathedral.svg" style="width:100%" onclick="openModal();currentSlide(5)" alt="artwork depicting Cologne Cathedral">
+      <div class="container"><p>Cologne Cathedral</p></div>
+      </div>
+    </div>
 
-              <div class="column4">
-                <div class="thumbnail" onclick="openModal();currentSlide(8)">
-                <img src="./images/placeholder8.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
-                <div class="container"><p>Rocks and hills</p></div>
-            </div>
-              </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(6)">
+      <img src="./images/peacock.svg" style="width:100%" onclick="openModal();currentSlide(6)" alt="peacock statuette">
+      <div class="container"><p>Peacock</p></div>
+      </div>
+    </div>
 
-          </div>
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(7)">
+      <img src="./images/lucy-l-old.png" style="width:100%" onclick="openModal();currentSlide(7)" alt="a sewing machine">
+      <div class="container"><p>Sewing machine</p></div>
+      </div>
+    </div>
+
+    <div class="column4">
+      <div class="thumbnail" onclick="openModal();currentSlide(8)">
+      <img src="./images/blank-old.png" style="width:100%" onclick="openModal();currentSlide(8)" alt="polaroid image with text saying 'share something old of yours' ">
+      <div class="container"><p>. . .</p></div>
+      </div>
+    </div>
+
+  </div>
           
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
+  <div id="myModal" class="modal" style="background-image: url('./images/gallery_background_2.jpeg');">
+
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+
+    <div class="modal-content">
           
-              <div class="mySlides">
-                <img src="./images/placeholder1.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/old.svg" alt="a copy of 'The Professor' by Charlotte Bronte">
+      <div class="caption-container">
+        <p>1948 copy of "The Professor" — Lydia</p>
+      </div>
+    </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder2.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/catjar.svg" style="width:100%" alt="a souvenir jar with a black cat">
+      <div class="caption-container">
+      <p>A small ornament passed down from my Gran, containing a black cat holding a max factor perfume from the 1950s. I love this ornament as it reminds me of happy times at my Gran's flat, and I also now own a real black cat! — Lucy</p>
+      </div>
+    </div>
           
-              <div class="mySlides">
-                <img src="./images/placeholder3.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/redrosebox.svg" alt="a bucket of red roses">
+      <div class="caption-container">
+      <p>It's been 2 years and that rose is hail and hearty, it symbolises the love I and my partner have for each other. It's going to die one day but our love will keep blossoming! — Christabel</p>
+      </div>
+    </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder4.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/melodymaker.svg" alt="Melody Maker newspaper">
+      <div class="caption-container">
+        <p>I got this newspaper as a birthday present from my friend. It dates back to 1998, the same year I was born! Even the same month, January, only 16 days earlier than I first saw this world. I love collecting music memorabilia, so whenever I hold this Melody Maker in my hands, it makes me happy! It is a special New Year's issue that also has a "Readers' Poll" where people voted for their favourite artists — who had the "haircut of the year"? (Keith Flint!) Who was "the sexiest man"? (Nicky Wire...) "Woman of the year"? (not surprisingly, Björk!) What was "the most irritating record"? ("I'm a Barbie girl, in the Barbie world...") "Best live act"? (Radiohead!) — just to name a few. It's a very fun read with a lot of familiar faces. And, well, Thom Yorke on the cover is a personally special bonus (he was also voted "man of the year")! — Dominyka</p>
+      </div>
+    </div>
               
-              <div class="mySlides">
-                <img src="./images/placeholder5.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/cathedral.svg" alt="artwork depicting Cologne Cathedral">
+      <div class="caption-container">
+      <p>This artwork of the Cologne Cathedral was gifted to me by my godmother. It has since always hung in my room and I love looking at its simple yet powerful design. My godmother comes from Cologne and has showed me this historical city with its wonderful traditions (like Carnival) throughout my life. The cathedral itself was built between 1248 and 1880 (632 years construction time) and welcomes many visitors today. I myself, have enjoyed visiting the stunning cathedral and particularly love the stained glass windows! — Victoria</p>
+      </div>
+    </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder6.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/peacock.svg" alt="peacock statuette">
+      <div class="caption-container">
+      <p>This lovely peacock was gifted to me for Christmas from my best friend and partner. I received this gift a few years ago and It was a great surprise because I am usually very picky with gifts. Peacocks bring good fortune and wealth to the owner and represent rebirth and beauty in many cultures. — Niki</p>
+      </div>
+    </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder7.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/lucy-l-old.png" alt="a sewing machine">
+      <div class="caption-container">
+      <p>The sewing machine represents something old. This is something I did as a child and lost somewhere along the way. I decided to revive my love for creativity and making things by getting myself one. — Lucy</p>
+      </div>
+    </div>
 
-              <div class="mySlides">
-                <img src="./images/placeholder8.jpg" style="width:100%">
-                <div class="caption-container">
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla gravida est et rhoncus. Nulla volutpat turpis ac facilisis blandit. Phasellus diam massa, luctus nec dapibus at, iaculis at lectus. Integer pulvinar mi ante, vel pretium sem ornare sit amet. Morbi hendrerit nulla nisi, molestie molestie urna convallis sit amet. Donec dignissim ornare scelerisque.</p>
-                  </div>
-              </div>
+    <div class="mySlides">
+      <img src="./images/blank-old.png" alt="polaroid image with text saying 'share something old of yours' ">
+      <div class="caption-container">
+      <p>If you would like to share "something old" of<br>yours, please go <a href="./Public gallery.html"><b>here</b></a> to submit your picture! Don't forget to add your name and a brief description of the object. Once we review, it will be uploaded to<br>this gallery!</p>
+      </div>
+    </div>
 
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-  <script src="./javascript.js">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+</div>
+    
+<script src="./javascript.js">
 </script>
-    </body>
+
+</body>
 </html>
