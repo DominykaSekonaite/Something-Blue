@@ -346,7 +346,7 @@ p {
 .button button {
   background: white;
   border: 0.4vw solid rgb(15, 101, 230);
-  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor_active.png"), auto;
+  cursor: url("./images/cursor_active.png"), auto;
 }
 
 .button button:hover {
@@ -355,11 +355,11 @@ p {
 }
 
 .form-label {
-  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor.png"), auto;
+  cursor: url("./images/cursor.png"), auto;
 }
 
 .form-control {
-  cursor: url("/Users/dominyka/Desktop/Something Blue/images/cursor_active.png"), auto;
+  cursor: url("./images/cursor_active.png"), auto;
 }
 
 #exampleFormControlInput1 {
